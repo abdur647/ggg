@@ -1,0 +1,25 @@
+/* styles-tablet.css */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background: linear-gradient(90deg, #3297F0, #4532F0);
+    }
+
+    /* Example styles for tablets */
+    header {
+        background-color: #4532F0;
+    }
+
+    section {
+        background-color: #f39c12;
+        color: #333;
+        padding: 20px;
+    }
+    img {
+        max-width: 5%;
+        height: 5%;
+    }
+    video {
+        max-width: auto;
+        height: auto;
+    }
+}

@@ -1,0 +1,28 @@
+/* styles-laptop.css */
+@media (min-width: 1025px) {
+    body {
+        background: linear-gradient(45deg, #3297F0, #4532F0);
+    }
+
+    /* Example styles for laptops */
+    header {
+        background-color: #D7C5F0;
+    }
+
+    section {
+        background-color: #3498db;
+        color: #fff;
+        padding: 30px;
+    }
+    video {
+        max-width: auto;
+        height: auto;
+    }
+    img img {
+        width: 100px; /* Adjust the size as needed */
+        height: 100px; /* Adjust the size as needed */
+        border-radius: 50%; /* Makes the image circular */
+        margin-right: 20px; /* Adds some spacing between the image and text */
+        float: left;
+    }
+}
